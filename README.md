@@ -2,6 +2,7 @@
 
 ##Task
 Простой веб-калькулятор, выполненный на **JavaScript** с использованием сборщика **Vite**. 
+https://drive.google.com/file/d/1U69EthlXj15fmJMbtD6vaKF6KKVADpK7/view?usp=sharing
 
 
 
