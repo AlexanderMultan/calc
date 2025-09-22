@@ -1,8 +1,10 @@
 import { Calculator } from './calculator.js';
+import { themeChange } from './theme-change.js';
 import '../css/styles.css';
 
 document.addEventListener('DOMContentLoaded', () => {
   new Calculator('#display', '.buttons');
+  themeChange();
 });
 document.querySelector('#app').innerHTML = `
 <div class="calculator">
@@ -35,4 +37,6 @@ document.querySelector('#app').innerHTML = `
         <button class="button equals">&equals;</button>
     </section>
 </div>
+
+<button class="theme-change-btn" id="theme-change-btn">Theme</button>
    `;
